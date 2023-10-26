@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="PortFolio-Projects">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="author" content="Rohith">
+        <!--<meta http-equiv="refresh" content="30"> -->
+        <title>Projects Page</title>
+        <link rel="stylesheet" href="projects.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body style="background-color: khaki;">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="color:black;background-color: bisque;z-index:2;">
+            <div class="container-fluid" id="navbarlogo">
+                <a class="navbar-brand" href="#">
+                  <img src="logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><span class="fa fa-home fa-lg"></span><span class="navlink"> Home</span></a>
+                    </li>
+                    <li class="nav-item" id="item">
+                        <a class="nav-link" href="academics.html"><span class="fa fa-list fa-lg"></span><span class="navlink"> Academics</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tech.html"><span class="fa fa-list fa-lg"></span><span class="navlink"> Technical Skills</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span><span class="navlink"> Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="achievements.html"><span class="fa fa-info fa-lg"></span><span class="navlink"> Achievements</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><span class="fa fa-address-card fa-lg"></span><span class="navlink"> Contact Us</span></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container p-5 my-5 mx-5 table-responsive" tyle="display: block; flex-wrap: wrap; justify-content: space-between; align-items: center;flex: 1;text-align:center">
+            <h1>Projects</h1>
+            <br>
+            <div id="scrolldiv" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+                <div id="pro1" class="container-fluid text-dark" style="padding:100px 20px; background-color:rgb(161, 159, 159);">
+                  <h2>Project 1</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, eum aut. Omnis tempore eligendi quibusdam hic sint exercitationem totam deleniti!</p>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae at accusamus nobis quasi blanditiis repudiandae quidem illum facilis. Saepe est distinctio iusto obcaecati alias suscipit optio, sed nostrum fugiat ab!</p>
+                </div>
+                <div id="pro2" class="container-fluid text-dark" style="padding:100px 20px;background-color:floralwhite;">
+                  <h2>Project 2</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis necessitatibus est laudantium commodi deserunt ab quisquam, magnam eveniet in voluptatum quos eligendi nesciunt natus iusto perspiciatis, delectus mollitia. Earum dolores sed in alias deserunt perspiciatis, sapiente facilis recusandae labore eligendi.</p>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere saepe qui ipsa odit, nesciunt, maiores amet error a asperiores magnam perspiciatis? Sit pariatur molestiae reiciendis recusandae quia, itaque minima. Ratione!</p>
+                </div>
+                <div id="pro3" class="container-fluid text-dark" style="padding:100px 20px;background-color:rgb(161, 159, 159);">
+                  <h2>Project 3</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repellendus magnam a odit consequatur quae, quam minus distinctio ipsum dolorem architecto ducimus ea aperiam iusto expedita nostrum nobis quia. Earum repellat blanditiis quo dolores aut? Cupiditate laborum magni soluta itaque culpa iste laboriosam impedit voluptatibus. Nam maxime eos quidem tempore.</p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer" style="background-color: bisque">
+            <div class="container p-2" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+                <div style="flex: 1; max-width: calc(33.33% - 20px); box-sizing: border-box;text-align:center">
+                    <h6>Location</h6>
+                    <address>Street-26,Hyderabad,Telangana,500100</address>
+                </div>
+                <div style="flex: 1; max-width: calc(33.33% - 20px); box-sizing: border-box;text-align:center">
+                    <h6>Around the Web</h6>
+                    <a href="https://www.whatsapp.com" target="_blank" class="social-icon">
+                        <i class="fa fa-whatsapp fa-1x"> Whatsapp  | </i>
+                    </a>    
+                    <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                        <i class="fa fa-instagram fa-1x"> Instagram  | </i>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+                        <i class="fa fa-linkedin fa-1x"> LinkedIn | </i>
+                    </a>
+                </div>
+                <div style="flex: 1; max-width: calc(33.33% - 20px); box-sizing: border-box;text-align: center;">
+                    <h6>About</h6>
+                    <p>PortFolio of Rohith</p>
+                </div>
+            </div>
+            <div class="container" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;text-align:center">
+                <div style="flex: 1; box-sizing: border-box;text-align:center">
+                    <p><strong>Copyright &copy 2023</strong></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
